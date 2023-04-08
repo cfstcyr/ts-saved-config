@@ -1,0 +1,37 @@
+{
+  "name": "@cfstcyr/ts-saved-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ignore-path .eslintignore --ext .js,.ts ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/configstore": "^5.0.1",
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "configstore": "^5.0.1",
+    "store2": "^2.14.2"
+  }
+}
